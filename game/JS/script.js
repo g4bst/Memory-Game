@@ -1,3 +1,6 @@
+//Used this video for help! https://www.youtube.com/watch?v=fYjQH6vvdr4&t=376s, I also used Chat GPT to help out with checking my code.
+
+
 
 function updateSettings(event)
 {
