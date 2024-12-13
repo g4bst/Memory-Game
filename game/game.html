@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link id="colorTheme" href="CSS/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+    <div class="header-container">
+        <p class="header">Memory Game</p>
+
+        <div id="themes" class="themes">
+            <div class="settings">
+                <label for="themes-select">Themes</label>
+                
+                <select name="themes-select" class="form-select form-select-sm" onchange="updateSettings(event)">
+                    <option value="CSS/style.css">Light</option>
+                    <option value="CSS/dark.css">Dark</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/angry.jpg" alt="angry cat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/bubbles.jpg" alt="can with bubbles on head"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/confused.jpg" alt="confused cat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/pink.jpg" alt="cat with pink hat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/screaming.jpg" alt="screaming kitten"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/shocked.jpg" alt="shocked cat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/angry.jpg" alt="angry cat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/bubbles.jpg" alt="can with bubbles on head"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/confused.jpg" alt="confused cat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/pink.jpg" alt="cat with pink hat"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/screaming.jpg" alt="screaming kitten"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <div class="img"><img src="images/shocked.jpg" alt="shocked cat"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bar">
+        <div class="moves">
+            <p>Moves</p>
+            <span>0</span>
+        </div>
+
+        <div class="timer">
+            <p>Time Taken</p>
+            <span>00:00</span>
+        </div>
+
+        <div class="start">
+            <button>Start</button>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
